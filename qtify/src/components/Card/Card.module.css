@@ -1,0 +1,20 @@
+.image {
+  height: 170px;
+  width: 159px;
+}
+
+.btn {
+  justify-content: flex-start;
+}
+
+.button_area {
+  background-color: var(--color-white);
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+
+  height: 40px;
+  width: 159px;
+}

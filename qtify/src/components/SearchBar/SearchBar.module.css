@@ -1,0 +1,29 @@
+.searchbar {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid var(--color-secondary);
+  border-radius: 8px 8px 8px 8px;
+  width: 568px;
+}
+
+.searchBorder {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px 8px 8px 8px;
+  height: 48px;
+}
+.searchInput {
+  position: relative;
+  font-weight: 500;
+  flex: 0.9;
+  border-radius: 8px 0px 0px 8px;
+  padding: 20 14px;
+}
+
+.searchButton {
+  position: relative;
+  flex: 0.1;
+
+  border-radius: 0px 8px 8px 0px;
+}
