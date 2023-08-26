@@ -1,0 +1,22 @@
+.main__container {
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-white);
+}
+
+.container {
+  padding: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.show__all {
+  color: var(--color-primary);
+}
+
+.show__all:hover {
+  cursor: pointer;
+}
